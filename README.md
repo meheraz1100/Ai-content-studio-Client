@@ -1,36 +1,214 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🚀 AI Content Studio
 
-## Getting Started
+AI Content Studio is a modern AI-powered web application that helps users generate high-quality content using Google's Gemini AI. The platform provides multiple AI writing tools, including blog generation, email writing, social media captions, and text summarization, all within a clean and responsive interface.
 
-First, run the development server:
+## 🌐 Live Demo
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+**Frontend:** https://ai-content-studio-v2.vercel.app/
+
+## 📂 Repositories
+
+**Frontend Repository:**
+https://github.com/meheraz1100/Ai-content-studio-Client
+
+**Backend Repository:**
+https://github.com/meheraz1100/Ai-content-studio-server
+
+---
+
+# ✨ Features
+
+### 🏠 Landing Page
+
+* Responsive Homepage
+* Hero Section
+* Features Section
+* Statistics
+* How It Works
+* Testimonials
+* FAQ
+* Call To Action
+* Footer
+
+### 🔍 Explore Templates
+
+* Browse AI Templates
+* Search Templates
+* Template Cards
+* Template Details Page
+
+### 🤖 AI Tools
+
+* AI Content Generator
+* AI Blog Generator
+* AI Email Writer
+* AI Caption Generator
+* AI Text Summarizer
+
+Powered by Google Gemini AI.
+
+### 👤 Authentication UI
+
+* Login Page
+* Registration Page
+
+### 📊 Dashboard
+
+* Dashboard Overview
+* Statistics Cards
+* Recent Activity Section
+
+### 📄 Additional Pages
+
+* About
+* Contact
+* Blog
+* Privacy Policy
+
+---
+
+# 🛠 Tech Stack
+
+## Frontend
+
+* Next.js
+* React
+* TypeScript
+* Tailwind CSS
+* Axios
+
+## Backend
+
+* Node.js
+* Express.js
+* TypeScript
+* CORS
+* dotenv
+
+## AI
+
+* Google Gemini API
+
+## Deployment
+
+* Vercel (Frontend)
+* Render (Backend)
+
+---
+
+# 📁 Project Structure
+
+Frontend
+
+```
+app/
+components/
+data/
+hooks/
+public/
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Backend
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+```
+src/
+routes/
+controllers/
+middlewares/
+services/
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+---
 
-## Learn More
+# ⚙️ Installation
 
-To learn more about Next.js, take a look at the following resources:
+## Frontend
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+```bash
+git clone https://github.com/meheraz1100/Ai-content-studio-Client.git
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+cd Ai-content-studio-Client
 
-## Deploy on Vercel
+npm install
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+npm run dev
+```
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## Backend
+
+```bash
+git clone https://github.com/meheraz1100/Ai-content-studio-server.git
+
+cd Ai-content-studio-server
+
+npm install
+
+npm run dev
+```
+
+---
+
+# 🔑 Environment Variables
+
+Frontend
+
+```env
+NEXT_PUBLIC_API_URL=YOUR_BACKEND_URL
+```
+
+Backend
+
+```env
+GEMINI_API_KEY=YOUR_GEMINI_API_KEY
+```
+
+---
+
+# 📸 Screenshots
+
+Add screenshots of:
+
+* Home Page
+* Explore Page
+* AI Generator
+* Dashboard
+
+---
+
+# 🚀 Future Improvements
+
+* JWT Authentication
+* Google Login
+* User Profile
+* AI Generation History
+* Favorites
+* Download as PDF
+* Copy to Clipboard
+* Markdown Rendering
+* Admin Dashboard
+* MongoDB Integration
+* Role-Based Authentication
+* Prompt Templates
+* AI Usage Analytics
+
+---
+
+# 👨‍💻 Developer
+
+**MD Mosaiyeb Islam Meheraz**
+
+Electrical & Telecommunication Technology Student
+
+Feni Computer Institute
+
+President, FCI ICT Club
+
+Secretary, FCI Rover Scout Unit
+
+Vice President, FCI Blood Donation Group
+
+---
+
+# 📜 License
+
+This project is developed for educational and portfolio purposes.
