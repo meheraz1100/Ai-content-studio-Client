@@ -3,6 +3,7 @@
 import { useState } from "react";
 import axios from "axios";
 import toast from "react-hot-toast";
+import ReactMarkdown from "react-markdown";
 
 export default function GeneratePage() {
   const [prompt, setPrompt] = useState("");
@@ -61,7 +62,9 @@ const handleGenerate = async () => {
           </h2>
 
           <p className="whitespace-pre-wrap">
-            {result}
+            <ReactMarkdown>
+{result}
+</ReactMarkdown>
           </p>
         </div>
       )}
