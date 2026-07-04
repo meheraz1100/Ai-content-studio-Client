@@ -169,9 +169,13 @@ GEMINI_API_KEY=YOUR_GEMINI_API_KEY
 Add screenshots of:
 
 * Home Page
+<img width="1897" height="907" alt="Screenshot 2026-07-04 114829" src="https://github.com/user-attachments/assets/856d7646-3c75-47cd-9da9-4a1379ea9314" />
+
 * Explore Page
+<img width="1898" height="911" alt="Screenshot 2026-07-04 121731" src="https://github.com/user-attachments/assets/50354f06-85cd-4a39-b21d-c8b70a171685" />
+
 * AI Generator
-* Dashboard
+<img width="1902" height="910" alt="Screenshot 2026-07-04 121755" src="https://github.com/user-attachments/assets/426a618e-4b24-4eaf-bcbe-a3c019547fa1" />
 
 ---
 
