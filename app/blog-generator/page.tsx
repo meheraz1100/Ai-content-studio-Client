@@ -3,6 +3,7 @@
 import { useState } from "react";
 import axios from "axios";
 import toast from "react-hot-toast";
+import ReactMarkdown from "react-markdown";
 
 export default function GeneratePage() {
   const [prompt, setPrompt] = useState("");
@@ -68,7 +69,9 @@ const API = process.env.NEXT_PUBLIC_API_URL;
           </h2>
 
           <p className="whitespace-pre-wrap">
+            <ReactMarkdown>
             {result}
+            </ReactMarkdown>
           </p>
         </div>
       )}
